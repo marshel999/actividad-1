@@ -1,16 +1,44 @@
-# React + Vite
+# Actividad 1 — Primer Proyecto en Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Información del Estudiante
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+| Campo        | Detalle                              |
+|--------------|--------------------------------------|
+| 👤 Nombre    | Marshel Aillón                       |
+| 🎓 Materia    | Programación para Dispositivos Móviles II |
+| 🏫 Institución | TECBA                               |
+| 📅 Fecha      | 08 de mayo, 2025                     |
+| 👨‍🏫 Docente   | Gary Guzmán                          |
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Descripción
 
-## Expanding the ESLint configuration
+Primer proyecto creado con **Vite + React** como parte de la Actividad 1.  
+Incluye la configuración del entorno de desarrollo con las herramientas requeridas por la materia.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Herramientas utilizadas
+
+- 🐟 **fish** — Shell alternativo
+- 🎣 **fisher** — Plugin manager para fish
+- 📦 **nvm** — Node Version Manager
+- 🟢 **node** — Entorno de ejecución JavaScript
+- ⚡ **pnpm** — Gestor de paquetes
+- ⚡ **Vite** — Bundler y entorno de desarrollo
+
+---
+
+## Captura del entorno
+
+![Captura de terminal con versiones](./captura.png)
+
+---
+
+## Cómo correr el proyecto
+
+```bash
+pnpm install
+pnpm run dev
+```
